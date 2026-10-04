@@ -1,0 +1,32 @@
+# Build output
+*.class
+classes/
+target/
+
+# JVM/runtime artifacts
+*.log
+*.hprof
+*.jfr
+pid.txt
+hs_err_pid*
+replay_pid*
+
+# Generated datasets / local experiment output
+data/iot_microbatches/
+results/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment
+.env
